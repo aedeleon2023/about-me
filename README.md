@@ -1,13 +1,11 @@
-# about-me
+# About Me
 ## LAB - 2
-Project Name
-I build an app with a direct and powerful purpose. It does all of the things that it accomplishes well. I should describe the purpose and functionality so those that visit my README understand the app
 
 ### Author: Angela DeLeon
 
 ### Links and Resources
-submission PR
-Any Links you used as reference
-Reflections and Comments
-Consider including the answers to your daily journal and submission questions here
-This is also a good place to reflect on the tools and resources used and learned
+
+### Reflections
+
+7/12/22
+Today I figured out how to make the prompts work with multiple answers, and multiple prompts.  Huge accomplishment!  I kind of hated JavaScript when I left 102.  For the life of me, I couldn’t make it work.  Now, it just makes logical sense.  Very excited to learn more!
