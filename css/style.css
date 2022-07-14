@@ -1,7 +1,43 @@
+body {
+    margin: 20px;
+}
+
 h1 {
     font-size: 2vw;
 }
 
-p{
+h2 {
+    font-size: 1.25vw;
+    font-weight: bold;
+    text-decoration: underline;
+    
+}
+
+.education {
+    border: 1px solid black;
+    margin: auto;
     padding: 10px;
+    text-align: center;
+    display: inline-block;
+  }
+  .movies {
+    display: inline-block;
+    border: 1px solid black;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+  }
+
+ul ol {
+    list-style-type: square;
+    padding: 20px;
+}
+
+p{
+    padding: 20px;
+    
+}
+
+.awards {
+    font-weight: bold;
 }
