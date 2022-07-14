@@ -1,7 +1,7 @@
 'use strict';
 
 
-/*let siteGuest = prompt('So, what is your name?');
+let siteGuest = prompt('So, what is your name?');
 alert(`Hello, ${siteGuest}! Ready to play a game?`);
 alert('I hope that was a yes, because there is no no.');
 alert('I like to call this game, How Well Do You Know Me?');
@@ -44,7 +44,7 @@ if (questionFour === 'y' || questionFour === 'yes') {
   alert(`You don't know me at all, ${siteGuest}!`);
 } else {
   alert('Please answer Yes or No.');
-} */
+} 
 
 
 let chance = 4;
