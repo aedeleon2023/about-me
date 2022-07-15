@@ -7,49 +7,66 @@ alert(`Hello, ${siteGuest}! Ready to play a game?`);
 alert('I hope that was a yes, because there is no no.');
 alert('I like to call this game, How Well Do You Know Me?');
 
-let questionOne = prompt('Do I have cats?').toLowerCase();
+function one() {
+  let questionOne = prompt('Do I have cats?').toLowerCase();
 
-if (questionOne === 'y' || questionOne === 'yes') {
-  alert('You are correct.  Cats are the best.');
-  score++;
-} else if (questionOne === 'n' || questionOne === 'no') {
-  alert('Nope! I\'m over 40 and single. I have cats.');
-} else {
-  alert('Please answer Yes or No.');
+  if (questionOne === 'y' || questionOne === 'yes') {
+    alert('You are correct.  Cats are the best.');
+    score++;
+  } else if (questionOne === 'n' || questionOne === 'no') {
+    alert('Nope! I\'m over 40 and single. I have cats.');
+  } else {
+    alert('Please answer Yes or No.');
+  }
 }
 
-let questionTwo = prompt('Is Catan the best game in the world?').toLowerCase();
+one();
 
-if (questionTwo === 'y' || questionTwo === 'yes') {
-  alert('You are correct.  Catan rules!');
-  score++;
-} else if (questionTwo === 'n' || questionTwo === 'no') {
-  alert('Nope! You are so wrong!  Catan is the best game in the world.');
-} else {
-  alert('Please answer Yes or No.');
+function two() {
+  let questionTwo = prompt('Is Catan the best game in the world?').toLowerCase();
+
+  if (questionTwo === 'y' || questionTwo === 'yes') {
+    alert('You are correct.  Catan rules!');
+    score++;
+  } else if (questionTwo === 'n' || questionTwo === 'no') {
+    alert('Nope! You are so wrong!  Catan is the best game in the world.');
+  } else {
+    alert('Please answer Yes or No.');
+  }
 }
 
-let questionThree = prompt('Is a Lamborghini my favorite car?').toLowerCase();
+two();
 
-if (questionThree === 'y' || questionThree === 'yes') {
-  alert('Heck no!  My favorite will always be a Lincoln Town Car.');
-} else if (questionThree === 'n' || questionThree === 'no') {
-  alert('Right! A Lincoln Town Car is way better.');
-  score++;
-} else {
-  alert('Please answer Yes or No.');
+function three() {
+  let questionThree = prompt('Is a Lamborghini my favorite car?').toLowerCase();
+
+  if (questionThree === 'y' || questionThree === 'yes') {
+    alert('Heck no!  My favorite will always be a Lincoln Town Car.');
+  } else if (questionThree === 'n' || questionThree === 'no') {
+    alert('Right! A Lincoln Town Car is way better.');
+    score++;
+  } else {
+    alert('Please answer Yes or No.');
+  }
 }
 
-let questionFour = prompt('Do I love fajitas?').toLowerCase();
+three();
 
-if (questionFour === 'y' || questionFour === 'yes') {
-  alert(`Yep, yep, yep, ${siteGuest}!`);
-  score++;
-} else if (questionFour === 'n' || questionFour === 'no') {
-  alert(`You don't know me at all, ${siteGuest}!`);
-} else {
-  alert('Please answer Yes or No.');
+function four() {
+  let questionFour = prompt('Do I love fajitas?').toLowerCase();
+
+  if (questionFour === 'y' || questionFour === 'yes') {
+    alert(`Yep, yep, yep, ${siteGuest}!`);
+    score++;
+  } else if (questionFour === 'n' || questionFour === 'no') {
+    alert(`You don't know me at all, ${siteGuest}!`);
+  } else {
+    alert('Please answer Yes or No.');
+  }
+
 }
+
+four();
 
 
 function five() {
@@ -71,6 +88,7 @@ function five() {
   if (!guessCorrect) {
     alert(`You were so close, ${siteGuest}. My favorite number is ${favNum}`);
   }
+
 }
 
 five();
@@ -90,7 +108,7 @@ function six() {
       }
     }
     if (!guessCorrect) {
-      alert(`Sorry, that is not one of my favorites.  You have ${6-(i+1)} guesses left.`);
+      alert(`Sorry, that is not one of my favorites.  You have ${6 - (i + 1)} guesses left.`);
     }
   }
   if (!guessCorrect) {
