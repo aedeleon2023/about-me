@@ -77,7 +77,7 @@ five();
 
 function six() {
   let favMovies = ['the long kiss goodnight', 'gone with the wind', 'the substitute', 'under siege', 'the hunt', 'a bronx tale'];
-let guessCorrect = false;
+  let guessCorrect = false;
   for (let i = 0; i < 6; i++) {
     let movGuess = prompt('Can you guess one of my favorite movies?').toLowerCase();
     for (let j = 0; j < favMovies.length; j++) {
@@ -88,13 +88,13 @@ let guessCorrect = false;
         i = 6;
         break;
       }
-    } 
+    }
     if (!guessCorrect) {
-      alert(`Sorry, that is not one of my favorites.  You have ${6-(i+1)} guesses left.`)
+      alert(`Sorry, that is not one of my favorites.  You have ${6-(i+1)} guesses left.`);
     }
   }
   if (!guessCorrect) {
-    alert(`Sorry, ${siteGuest}, you didn't guess any of them. These are my favorite movies.  ${favMovies}`)
+    alert(`Sorry, ${siteGuest}, you didn't guess any of them. These are my favorite movies.  ${favMovies}`);
   }
 
   alert(`Great job, ${siteGuest}! You scored ${score} out of 6!`);
