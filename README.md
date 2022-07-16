@@ -28,3 +28,6 @@ Today was another long one, but way more fruitful.  Talked with many TAs, my lab
 Learned quite a bit about arrays, and finally, honestly, I can say I appreciate them.  I may not like them, but I can see their value.  Getting more familiar with loops.  Can’t wait to be good friends.  Seriously, can’t wait for the weekend to take a breath and cement some of this in my brain.  Right now, I’ve been invaded and it’s all kinds of chaos happening in there.  Yep, just looking forward to the calm, and a chance for it to settle in.  
 
 Just saw the calendar, and it looks like an extra busy one tomorrow.  Will stay up late again.  It’s 11:20 P.M. now.  Learned this last week, that no matter how well-intentioned I am at night, with my thoughts of waking up early to get the reading notes done, it won’t happen.  So I will stay up and get those completed before sleep can happen.  
+
+7/15/22
+Today was a better day.  Didn't get a chance to work much on here, but I will be back.  Have all weekend to use CSS to make you pretty.  
